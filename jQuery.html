@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="h3">sammad and hasam ki jori dadam da dadam di da jori aee hasam aur sammad ki jori </h1>
+    <button id="yellow">sammad</button>
+    <button id="blue">shgyd</button>
+    <button id="red">sifhus</button> <br> <br>
+    <!-- <button class="toggel">toggel</button> -->
+    <!-- img work start from hre on  -->
+    <img src="on.png" alt="" height="200px">
+    <button id="on">on</button>
+    <button id="off">off</button>
+    <!-- fade work start from here -->
+    <h1 id="h2">sammad and hasam ki jori dadam da dadam di da jori aee hasam aur sammad ki jori </h1>
+    <button id="fade">fade on</button>
+</body>
+    <script src="jquery-4.0.0.min.js"></script>
+    <script>
+        // $('.toggel').click(function(){
+        //  $('h1').toggle('.toggel')  
+        // })   
+        // $('h1').css("background-color","blue") 
+        // $('h1').text("sammad")          
+          $('#yellow').click(function(){
+         $('#h3').css('color','yellow')  
+        })        
+         $('#blue').click(function(){
+         $('#h3').css('color','blue')  
+        })
+         $('#red').click(function(){
+         $('#h3').css('color','red')  
+        })
+        // img work start from here 
+       $('#on').click(function(){
+         $('img').attr('src','on.png')  
+        }) 
+        $('#off').click(function(){
+         $('img').attr('src','off.png')  
+        }) 
+        // fade work start from here 
+       $('#fade').click(function(){
+       $('#h2').slideToggle(4000)  
+       })   
+
+    </script>
+</body>
+</html>
